@@ -20,15 +20,6 @@ It can understand voice commands, perform system tasks, and respond intelligentl
 
 A personalized AI assistant that learns from the user and responds intelligently in real time.
 
-
-# ⚙️ Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/LYRA-AI-Assistant.git
-cd LYRA-AI-Assistant
-
 ## 🗣️ Commands Guide
 
 Below are some example voice commands you can use with LYRA.
@@ -127,3 +118,14 @@ Below are some example voice commands you can use with LYRA.
 - Use simple phrases  
 - Start with "Lyra" for activation  
 - Commands are flexible (natural language supported)
+
+
+
+# ⚙️ Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/LYRA-AI-Assistant.git
+cd LYRA-AI-Assistant
+
