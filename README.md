@@ -35,7 +35,7 @@ Below are some example voice commands you can use with LYRA.
 
 ### 🔹 Basic Interaction
 
-"Hello"  
+"wake word - Lyra"  
 → Greets you  
 
 "What is the time?"  
