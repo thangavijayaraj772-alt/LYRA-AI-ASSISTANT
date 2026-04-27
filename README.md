@@ -102,13 +102,6 @@ Below are some example voice commands you can use with LYRA.
 
 ---
 
-### 🔹 Fun Commands
-
-"Tell me a joke"  
-→ Tells a random joke  
-
----
-
 ## 🎯 Command Tips
 
 - Speak clearly for better accuracy  
