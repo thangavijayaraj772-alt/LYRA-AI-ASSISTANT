@@ -106,14 +106,6 @@ def personalinfo_command(command):
         elif "say my birthday" in command:
             speak(personal_info["birthday"])
             return True
-                
-        elif "who is kavin" in command:
-            speak("he is my boss's favourite boy")
-            return True
-
-        elif "say my favourite boy name" in command:
-            speak("kavin indrajith")
-            return True
         return False
              
 def online_information(command):
