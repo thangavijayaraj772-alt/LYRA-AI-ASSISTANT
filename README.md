@@ -61,8 +61,8 @@ Below are some example voice commands you can use with LYRA.
 "<name> file open"  (Eg: books file open)
 → Searches and opens a file  
 
-"<folder name> file open"  
-→ Opens folders like Desktop, Downloads (Eg: desktop file open) 
+"<folder name> file open"  (Eg: desktop file open) 
+→ Opens folders like Desktop, Downloads 
 
 "close <software name>" (Eg: close chrome)
 → closes the software
