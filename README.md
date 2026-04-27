@@ -55,16 +55,16 @@ Below are some example voice commands you can use with LYRA.
 
 ### 🔹 File & Application Control
 
-"Open <software name>"  
+"Open <software name>"  (Eg: open chrome)
 → Opens webpages or softwares of (chrome,instagram,youtube,edge,notepad,calculator,whatsapp,chat gpt)
 
-"<name> file open"  
+"<name> file open"  (Eg: books file open)
 → Searches and opens a file  
 
 "<folder name> file open"  
-→ Opens folders like Desktop, Downloads  
+→ Opens folders like Desktop, Downloads (Eg: desktop file open) 
 
-"close <software name>"
+"close <software name>" (Eg: close chrome)
 → closes the software
 
 ---
