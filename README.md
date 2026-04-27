@@ -41,9 +41,6 @@ Below are some example voice commands you can use with LYRA.
 "What is the time?"  
 → Tells current system time  
 
-"What is today's date?"  
-→ Tells today’s date  
-
 ---
 
 ### 🔹 AI / Knowledge (Gemini)
@@ -85,13 +82,13 @@ Below are some example voice commands you can use with LYRA.
 ### 🔹 Memory System
 
 "Remember this..."  
-→ Stores personal information  
+→ Stores as a memory  (Eg:remember july 10 is my crush birthday)
 
-"What do you remember?"  
-→ Recalls stored memory  
+"recall"  
+→ Recalls stored memory  (Eg:you asked me to remeber july 10 is my crush birthday) -only when we ask recall my crush birthday
 
-"What is my <key>"  
-→ Retrieves saved personal info  
+"store information"  
+→ It asks a key and value then ask a comfirmation to save the information, the confirmation commands are (save, ok, yes, safe, i want)
 
 ---
 
