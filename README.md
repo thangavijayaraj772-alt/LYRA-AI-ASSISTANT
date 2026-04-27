@@ -97,7 +97,7 @@ Below are some example voice commands you can use with LYRA.
 
 ### 🔹 Search & Information
 
-"Search Wikipedia for <topic>"  
+"Information about (topic name)"  
 → Fetches summary from Wikipedia  
 
 "What is the weather?"  
