@@ -3,26 +3,31 @@
 LYRA is a voice-controlled AI assistant inspired by JARVIS.  
 It can understand voice commands, perform system tasks, and respond intelligently using AI.
 
+---
 
-# ✨ Features
+## ✨ Features
 
-- 🎤 Voice Input & Output
-- 🤖 AI-powered responses (Gemini API)
-- 📂 Open software and files using voice
-- 🌐 Weather information
-- 🧠 Memory system (remember & recall)
-- ⚙️ System controls (shutdown, restart, screenshot)
-- 🔑 API setup GUI
+- 🎤 Voice Input & Output  
+- 🤖 AI-powered responses (Gemini API)  
+- 📂 Open software and files using voice  
+- 🌐 Weather information  
+- 🧠 Memory system (remember & recall)  
+- ⚙️ System controls (shutdown, restart, screenshot)  
+- 🔑 API setup GUI  
 
-# 🧠 What does LYRA mean?
+---
+
+## 🧠 What does LYRA mean?
 
 **LYRA = Learning Your Responsive Assistant**
 
 A personalized AI assistant that learns from the user and responds intelligently in real time.
 
+---
+
 ## 🗣️ Commands Guide
 
-Below are some example voice commands you can use with LYRA.
+Below are example voice commands you can use with LYRA.
 
 ---
 
@@ -35,9 +40,6 @@ Below are some example voice commands you can use with LYRA.
 
 ### 🔹 Basic Interaction
 
-"wake word - Lyra"  
-→ Greets you  
-
 "What is the time?"  
 → Tells current system time  
 
@@ -46,98 +48,108 @@ Below are some example voice commands you can use with LYRA.
 ### 🔹 AI / Knowledge (Gemini)
 
 "Tell me about Artificial Intelligence"  
-→ Gives AI-generated explanation  
+→ AI-generated explanation  
 
 "What is Python?"  
-→ Answers general knowledge questions  
+→ Answers general questions  
 
 ---
 
 ### 🔹 File & Application Control
 
-"Open <software name>"  (Eg: open chrome)
-→ Opens webpages or softwares of (chrome,instagram,youtube,edge,notepad,calculator,whatsapp,chat gpt)
+"Open <software name>"  
+→ Opens apps (Chrome, YouTube, Notepad, etc.)
 
-"<name> file open"  (Eg: books file open)
+"<name> file open"  
 → Searches and opens a file  
 
-"<folder name> file open"  (Eg: desktop file open) 
-→ Opens folders like Desktop, Downloads 
+"<folder name> file open"  
+→ Opens folders like Desktop, Downloads  
 
-"close <software name>" (Eg: close chrome)
-→ closes the software
+"Close <software name>"  
+→ Closes the software  
 
 ---
 
 ### 🔹 System Control
 
-"Shutdown system"  
-→ Shuts down the computer  
-
-"Restart system"  
-→ Restarts the computer  
-
-"Take screenshot"  
-→ Captures screen  
+"Shutdown system" → Shuts down PC  
+"Restart system" → Restarts PC  
+"Take screenshot" → Captures screen  
 
 ---
 
 ### 🔹 Memory System
 
 "Remember this..."  
-→ Stores as a memory  (Eg:remember july 10 is my crush birthday)
+→ Stores memory  
 
-"recall"  
-→ Recalls stored memory  (Eg:you asked me to remeber july 10 is my crush birthday) -only when we ask recall my crush birthday
+"Recall <keyword>"  
+→ Retrieves stored memory  
 
-"store information"  
-→ It asks a key and value then ask a comfirmation to save the information, the confirmation commands are (save, ok, yes, safe, i want)
+"Store information"  
+→ Saves key-value data with confirmation  
 
 ---
 
 ### 🔹 Search & Information
 
-"Information about (topic name)"  
+"Information about <topic>"  
 → Fetches summary from Wikipedia  
 
 "What is the weather?"  
 → Provides weather update  
 
 ---
-# 🔑 API setup
--Lyra uses external APIs for AI responses and weather information.
--you need to provide your own API keys to get AI responses and weather information otherwise assistant runs but not provide AI related inforamtion
 
-# 1. Gemini API (for AI responses)
-1. Go to Google AI studio
-2. Generate your API
-3. Copy the key
+## 🔑 API Setup
 
-# 2. Weather API
-1. Go to openweathermap.org
-2. Genarate your API
-3. Copy the key
+⚠️ API keys are required for full functionality.
 
-# Add your API key to lyra (Very Important)
+LYRA uses external APIs for AI responses and weather data.
 
-after the program starts and wake word detected, say:
-"API setup" or "settings"
-→ opens a small window and it asks gemini and weather API, after you enter your API, AI responses and weather informations starts work
+---
+
+### 1️⃣ Gemini API (AI Responses)
+
+1. Go to Google AI Studio  
+2. Generate an API key  
+3. Copy the key  
+
+---
+
+### 2️⃣ Weather API
+
+1. Go to https://openweathermap.org  
+2. Generate an API key  
+3. Copy the key  
+
+---
+
+### ⚙️ Add API Keys in LYRA
+
+After starting LYRA, say:
+
+"API setup" or "settings"  
+
+→ A window will open  
+→ Enter your Gemini & Weather API keys  
+
+---
 
 ## 🎯 Command Tips
 
-- Speak clearly for better accuracy  
+- Speak clearly  
 - Use simple phrases  
-- Start with "Lyra" for activation  
-- Commands are flexible (natural language supported)
+- Start with "Lyra"  
+- Commands support natural language  
 
+---
 
-
-# ⚙️ Installation
-
-1. Clone the repository:
+## ⚙️ Installation
 
 ```bash
 git clone https://github.com/your-username/LYRA-AI-Assistant.git
 cd LYRA-AI-Assistant
-
+pip install -r requirements.txt
+python lyra.py
