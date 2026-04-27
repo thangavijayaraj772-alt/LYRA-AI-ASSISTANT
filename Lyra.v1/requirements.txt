@@ -1,0 +1,11 @@
+
+google-genai
+requests
+SpeechRecognition
+pyttsx3
+PyAudio
+pywin32
+PyAutoGUI
+pillow
+wikipedia
+
