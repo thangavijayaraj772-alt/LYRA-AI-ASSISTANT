@@ -20,6 +20,25 @@ It can understand voice commands, perform system tasks, and respond intelligentl
 
 A personalized AI assistant that learns from the user and responds intelligently in real time.
 
+# 🔑 API setup
+-Lyra uses external APIs for AI responses and weather information.
+-you need to provide your own API keys to get AI responses and weather information otherwise assistant runs but not provide AI related inforamtion
+
+# 1. Gemini API (for AI responses)
+1. Go to Google AI studio
+2. Generate your API
+3. Copy the key
+
+# 2. Weather API
+1. Go to openweathermap.org
+2. Genarate your API
+3. Copy the key
+
+#Add your API key to lyra (Very Important)
+after the program starts and wake word detected, say:
+"API setup" or "settings"
+→ opens a small window and it asks gemini and weather API, after you enter your API, AI responses and weather informations starts work
+
 ## 🗣️ Commands Guide
 
 Below are some example voice commands you can use with LYRA.
