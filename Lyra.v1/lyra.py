@@ -83,14 +83,7 @@ def basic_commands(command,weather_key):
 
 def personalinfo_command(command):
     # personal info
-        if "say my name" in command:
-            if "name" in personal_info:
-                speak(personal_info["name"])
-                        
-            else:
-                speak("doesn't stored")
-            return True
-        elif "reset my profile" in command:
+        if "reset my profile" in command:
             personal_info.clear()
             speak("your personal information is cleared")
             return True
@@ -101,10 +94,6 @@ def personalinfo_command(command):
                     
         elif "store information" in command:
             store_the_info()
-            return True
-                    
-        elif "say my birthday" in command:
-            speak(personal_info["birthday"])
             return True
         return False
              
